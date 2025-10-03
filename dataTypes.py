@@ -108,6 +108,7 @@ print(text.endswith('is'))
 
 
 
+
 # ---------------------Lish 
 
 # fruits = ['apple' , 'banana' , 'cherry' , 'mango']
