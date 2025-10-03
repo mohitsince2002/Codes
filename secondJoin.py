@@ -1,3 +1,4 @@
-from second import chai
+from second import my_function
 
-chai('hello world')
+my_function()
+

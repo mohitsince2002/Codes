@@ -6,11 +6,13 @@
 #     i += 1 
 
 
-num = int(input('Enter a Number -'))
-i = 1 
-while num <=10:
+# num = int(input('Enter a Number -'))
+# i = 1 
+# while num <=10:
    
-    print(num * i)
-    i += 1 
+#     print(num * i)
+#     i += 1 
+
+
 
 
