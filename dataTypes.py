@@ -239,18 +239,212 @@
 #     print("Out of Stock")
 
 
-fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
-selected_fruits = fruits[2:]
-print(selected_fruits)
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
+# selected_fruits = fruits[2:]
+# print(selected_fruits)
 
-fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
-selected_fruits = fruits[:]
-print(selected_fruits)
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
+# selected_fruits = fruits[:]
+# print(selected_fruits)
 
 
-fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
-selected_fruits = fruits[::-1]
-print(selected_fruits)
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
+# selected_fruits = fruits[::-1]
+# print(selected_fruits)
+
+
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
+# fruits.append('orange')
+# print(fruits)
+
+
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
+# fruits.insert(1,'orange')
+# print(fruits)
+
+
+# fruits = ["apple", "banana"]
+# fruits.extend(["cherry", "orange"])
+# print(fruits)
+
+# fruits = ["apple", "banana"]
+# fruits.extend(("cherry", "orange"))
+# print(fruits)
+
+# fruits = ["apple", "banana"]
+# more_fruits = ["cherry", "orange"]
+# fruits.extend(more_fruits)
+# print(fruits)  
+
+
+
+
+# marks = []
+# count = 1 
+# while count <=5:
+#     sub_marks = int(input('enter marks -')) 
+#     marks.append(sub_marks)
+#     count+=1 
+# print(marks)
+
+
+# marks = []
+# count = 1 
+# for count in range(5):
+#     sub_marks = int(input('enter marks -'))
+#     marks.append(sub_marks)
+# print(marks)
+
+
+#-------------- How to update / change the exising element
+
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
+# fruits[2] = "orange"
+# print(fruits)
+
+
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
+# print(fruits)
+# del fruits
+# print(fruits)
+
+
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
+# print(fruits)
+# del fruits[2]
+# print(fruits)
+
+
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
+# print(fruits)
+# fruits.pop(2)
+# print(fruits)
+
+
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
+# print(fruits)
+# fruits.pop()
+# print(fruits) // remove the last element
+
+
+
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
+# print(fruits)
+# fruits.remove('banana')
+# print(fruits)
+
+
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
+# print(fruits)
+# fruits.sort()
+# print(fruits)
+
+
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
+# print(fruits)
+# fruits.reverse()
+# print(fruits)
+
+
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi']
+# fruits.clear()
+# print(fruits) # //[]
+
+
+#------serching
+
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi' ]
+# element_pos = fruits.index('banana')
+# print(element_pos)
+
+
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi' , "cherry"]
+# element_pos = fruits.index('cherry' , 2)
+# print(element_pos)
+
+
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi' ]
+# copy_fruits = fruits.copy()
+# print(fruits is copy_fruits)
+
+
+# fruits = ['apple' , 'banana' , 'pinapple' , 'cherry' , 'kiwi' , "cherry"]
+# count_cherry = fruits.count('cherry')
+# print(count_cherry)
+
+
+# numbers = [5, 3, 8, 1]
+# numbers.sort(reverse=True)
+# print(numbers)
+
+
+# numbers = [1,3,5,3,69,37,65,57]
+# reverse_number = sorted(numbers)
+# print(reverse_number)
+# print(numbers)
+
+
+# numbers = [1,3,5,3,69,37,65,57]
+# max_value = max(numbers)
+# print(max_value)
+
+
+# numbers = [1,3,5,3,69,37,65,57]
+# sum_value = sum(numbers)
+# print(sum_value)
+
+
+# numbers = [1,3,5,3,69,37,65,57]
+# min_value = min(numbers)
+# print(min_value)
+
+
+# -------------nested List / multi dimension list
+
+# number = [10,20,30] one dimension list
+
+
+# matrix = [[10,20,30],[40,50,60]] // two dimension list
+# print(matrix)
+# print(matrix[0])
+# print(matrix[0][0])
+
+# numbers = [
+#     [[10,20,30],[10,20,30]], 
+#     [[10,20,30],[10,20,30]]
+#            ]   // three dimension list
+# print(numbers[0][0][0])
+
+
+
+# find the maximum/highest value from the list without using build in function 
+
+# marks = [10,40,30,20,30]
+
+# max_marks = marks[0]
+
+# # for index in range(1 , len(marks)):
+# #     if marks[index]>max_marks:
+# #         max_marks = marks[index]
+
+# for value in marks:
+#     if value>max_marks:
+#         max_marks = value
+# print(max_marks)
+
+
+
+# H.W 
+
+# find the highsert value 
+# lowest value 
+# sum of the list 
+
+
+
+
+
+
 
 
 
