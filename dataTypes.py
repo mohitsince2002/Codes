@@ -461,6 +461,198 @@
 
 
 
+
+# matrix1 = [[1,2],[3,4]]
+# matrix2 = [[5,6],[2,1]]
+
+# for i in range(len(matrix1)):
+#     for j in range(len(matrix1[i])):
+#         print(matrix1[i][j]+matrix2[i][j],end=' ')
+#     print()
+
+
+
+#---------------------Tuple---------------------
+
+# fruits = ('apple' , 'banana' , 'cherry' , 'kiwi' , 'orange' , 'pinapple' , 'banana' , 'kiwi')
+# num = 10,
+# print(type(num))
+
+
+# fruits = ('apple' , 'banana' , 'cherry' , 'kiwi' , 'orange' , 'pinapple' , 'banana' , 'kiwi')
+# print(fruits[0])
+# print(fruits[1])
+# print(fruits[2])
+# print(fruits[-1])
+
+
+# fruits = ('apple' , 'banana' , 'cherry' , 'kiwi' , 'orange' , 'pinapple' , 'banana' , 'kiwi')
+# print(fruits.count('kiwi'))
+
+# fruits = ('apple' , 'banana' , 'cherry' , 'kiwi' , 'orange' , 'pinapple' , 'banana' , 'kiwi')
+# print(fruits.index('kiwi'))
+
+# num = (10,20,39,49)
+# print(max(num))
+
+
+
+
+# fruit1 = ('apple' , 'banana' , 'cherry')
+# fruit2 = ('watermalon' , 'pinapple' , 'kiw')
+# fruit3 = fruit1 + fruit2
+# print(fruit3)
+
+
+# gender = ('male' , 'female' , 'other')  #  // use tuple this case 
+# size = ('s','m','l','xl','xxl')          
+
+
+# size = ('s','m','l','xl','xxl')   
+# print(size)
+# list_size = list(size)
+# list_size.append('xxxl')
+# size = tuple(list_size)
+# print(size)
+
+
+
+#-----------Set-----------------
+
+
+# fruits = {'apple' , 'banana' , 'cherry' , 'kiwi' , 'orange' , 'pinapple'}
+# print(fruits)
+# print(type(fruits))
+
+
+
+# fruits = set({})
+# fruits.add('apple')
+# fruits.add(10)
+# fruits.add('cherry')
+# print(fruits)
+
+
+# fruits = {'apple' , 'banana' , 'cherry' , 'kiwi' , 'orange' , 'pinapple'}
+# fruits.remove("banana")
+# print(fruits)
+
+
+
+# fruits = {'apple' , 'banana' , 'cherry' , 'kiwi'}
+# fruits.update([ 'orange' , 'pinapple'])
+# print(fruits)
+
+
+fruits = {'apple' , 'banana' , 'cherry' , 'kiwi' , 'orange' , 'pinapple'}
+fruits.remove('apple')
+print(fruits)
+
+
+# pop()
+# clear()
+# union()
+# copy()
+# intersection()
+# intersection_update()
+# defference()
+# symmetric_defference()
+# symmetric_defference_update()
+
+
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7}
+print("A =", A)
+print("B =", B)
+
+
+# pop()
+
+A = {1, 2, 3, 4}
+removed = A.pop()
+print("Removed element:", removed)
+print("After pop:", A)
+
+
+# clear()
+
+A = {1, 2, 3}
+A.clear()
+print(A)
+
+
+# union()
+
+A = {1, 2, 3}
+B = {3, 4, 5}
+C = A.union(B)
+print(C)
+
+
+# copy()
+
+A = {1, 2, 3}
+B = A.copy()
+print(B)
+
+
+# intersection()
+
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+C = A.intersection(B)
+print(C)
+
+
+# intersection_update()
+
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+A.intersection_update(B)
+print(A)
+
+
+# defference()
+
+A = {1, 2, 3, 4}
+B = {3, 4, 5}
+C = A.difference(B)
+print(C)
+
+
+# symmetric_defference()
+
+A = {1, 2, 3}
+B = {3, 4, 5}
+C = A.symmetric_difference(B)
+print(C)
+
+
+# symmetric_defference_update()
+
+A = {1, 2, 3}
+B = {3, 4, 5}
+A.symmetric_difference_update(B)
+print(A)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # ---------------------Lish 
 
 # fruits = ['apple' , 'banana' , 'cherry' , 'mango']
