@@ -544,131 +544,312 @@
 # print(fruits)
 
 
-fruits = {'apple' , 'banana' , 'cherry' , 'kiwi' , 'orange' , 'pinapple'}
-fruits.remove('apple')
-print(fruits)
-
-
-# pop()
-# clear()
-# union()
-# copy()
-# intersection()
-# intersection_update()
-# defference()
-# symmetric_defference()
-# symmetric_defference_update()
-
-
-A = {1, 2, 3, 4, 5}
-B = {4, 5, 6, 7}
-print("A =", A)
-print("B =", B)
-
-
-# pop()
-
-A = {1, 2, 3, 4}
-removed = A.pop()
-print("Removed element:", removed)
-print("After pop:", A)
-
-
-# clear()
-
-A = {1, 2, 3}
-A.clear()
-print(A)
-
-
-# union()
-
-A = {1, 2, 3}
-B = {3, 4, 5}
-C = A.union(B)
-print(C)
-
-
-# copy()
-
-A = {1, 2, 3}
-B = A.copy()
-print(B)
-
-
-# intersection()
-
-A = {1, 2, 3, 4}
-B = {3, 4, 5, 6}
-C = A.intersection(B)
-print(C)
-
-
-# intersection_update()
-
-A = {1, 2, 3, 4}
-B = {3, 4, 5, 6}
-A.intersection_update(B)
-print(A)
-
-
-# defference()
-
-A = {1, 2, 3, 4}
-B = {3, 4, 5}
-C = A.difference(B)
-print(C)
-
-
-# symmetric_defference()
-
-A = {1, 2, 3}
-B = {3, 4, 5}
-C = A.symmetric_difference(B)
-print(C)
-
-
-# symmetric_defference_update()
-
-A = {1, 2, 3}
-B = {3, 4, 5}
-A.symmetric_difference_update(B)
-print(A)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# ---------------------Lish 
-
-# fruits = ['apple' , 'banana' , 'cherry' , 'mango']
-
+# fruits = {'apple' , 'banana' , 'cherry' , 'kiwi' , 'orange' , 'pinapple'}
+# fruits.remove('apple')
 # print(fruits)
 
 
+# # pop()
+# # clear()
+# # union()
+# # copy()
+# # intersection()
+# # intersection_update()
+# # defference()
+# # symmetric_defference()
+# # symmetric_defference_update()
+
+
+# A = {1, 2, 3, 4, 5}
+# B = {4, 5, 6, 7}
+# print("A =", A)
+# print("B =", B)
+
+
+# # pop()
+
+# A = {1, 2, 3, 4}
+# removed = A.pop()
+# print("Removed element:", removed)
+# print("After pop:", A)
+
+
+# # clear()
+
+# A = {1, 2, 3}
+# A.clear()
+# print(A)
+
+
+# # union()
+
+# A = {1, 2, 3}
+# B = {3, 4, 5}
+# C = A.union(B)
+# print(C)
+
+
+# # copy()
+
+# A = {1, 2, 3}
+# B = A.copy()
+# print(B)
+
+
+# # intersection()
+
+# A = {1, 2, 3, 4}
+# B = {3, 4, 5, 6}
+# C = A.intersection(B)
+# print(C)
+
+
+# # intersection_update()
+
+# A = {1, 2, 3, 4}
+# B = {3, 4, 5, 6}
+# A.intersection_update(B)
+# print(A)
+
+
+# # defference()
+
+# A = {1, 2, 3, 4}
+# B = {3, 4, 5}
+# C = A.difference(B)
+# print(C)
+
+
+# # symmetric_defference()
+
+# A = {1, 2, 3}
+# B = {3, 4, 5}
+# C = A.symmetric_difference(B)
+# print(C)
+
+
+# # symmetric_defference_update()
+
+# A = {1, 2, 3}
+# B = {3, 4, 5}
+# A.symmetric_difference_update(B)
+# print(A)
+
+
+
+#--------------------------Dictionary------------------------------
+
+# Dictionaries are used to store data values in key:value pairs.
+# Dictionaries are written with curly brackets, and have keys and values:
+# it is a mutable object
+
+
+# marks = { 
+    
+#     'phy' : 90,
+#     'chem' : 59,
+#     'maths' : 78,
+#     'eng' : 59
+# }
+
+# print(marks)
 
 
 
 
+# marks = {
+#     'phy' : 90,
+#     'chem' : 59,
+#     'maths' : 78,
+#     'eng' : 59,
+#     'chem' : 40
+# }
+# print(marks)
+
+
+# marks = {}
+# marks['chem']= 20
+# print(marks)
+
+
+# marks = {
+#     'phy' : 90,
+#     'chem' : 59,
+#     'maths' : 78,
+#     'eng' : 59
+    
+# }
+# marks['chem']=40
+# print(marks)  # // update a value 
 
 
 
+# user = {
+#     'name': 'yash',
+#     'age': 24,
+#     'city' : 'mumbai',
+#     'marks' :  {'phy' : 90,'chem' : 59,'maths' : 78,'eng' : 59}
+# }
+
+# print(user)
+# print(user['name'])
+# print(user['marks'])
+# print(user['marks']['phy'])
 
 
+
+# user = {
+#     'name': 'yash',
+#     'age': 24,
+#     'city' : 'mumbai',
+#     'marks' :  {'phy' : 90,'chem' : 59,'maths' : 78,'eng' : 59}
+# }
+
+# print(user.get('fname' , 'key does not exist'))
+
+
+# user = {
+#     'name': 'yash',
+#     'age': 24,
+#     'city' : 'mumbai',
+#     'marks' :  {'phy' : 90,'chem' : 59,'maths' : 78,'eng' : 59}
+# }
+
+# print(user.keys())
+# print(user.values())
+# print(user.items())
+
+
+# user = {
+#     'name': 'yash',
+#     'age': 24,
+#     'city' : 'mumbai',
+#     'marks' :  {'phy' : 90,'chem' : 59,'maths' : 78,'eng' : 59}
+# }
+# address = {
+#     'pincode' : 400101,
+#     'flat': 404,
+#     'landmark' : 'terapanth bhavan'
+# }
+
+# user.update(address)
+# print(user)
+
+
+
+# user = {
+#     'name': 'yash',
+#     'age': 24,
+#     'city' : 'mumbai',
+#     'marks' :  {'phy' : 90,'chem' : 59,'maths' : 78,'eng' : 59}
+# }
+
+# user.pop('name')
+# print(user)
+
+
+# user = {
+#     'name': 'yash',
+#     'age': 24,
+#     'city' : 'mumbai',
+#     'marks' :  {'phy' : 90,'chem' : 59,'maths' : 78,'eng' : 59}
+# }
+
+# print(user)
+# user_item = user.popitem()
+# print(user_item)
+
+
+
+user = {
+    'name': 'yash',
+    'age': 24,
+    'city' : 'mumbai',
+    'marks' :  {'phy' : 90,'chem' : 59,'maths' : 78,'eng' : 59}
+}
+
+# for i in user.key(): 
+#     print(i)
+
+# for key,value in user.items():
+#     print(f'key: {key} , value: {value}')
+
+# for i in user.values(): 
+#     print(i)
+
+# for i in user.items(): 
+#     print(i)
+
+
+# Unpacking of tuple
+
+# fruits = 'apple' , 'orange' , 'banana'
+# fruit1 , fruit2 , fruit3 = fruits 
+# print(fruit1)
+
+
+# -------------------------------- List comprehension
+
+# list_name = [var for var in range()]
+
+# num  = []
+# for i in range(1,10):
+#     num.append(i)
+# print(num)
+
+
+# num = [i for i in range(1,5)]
+# print(num)
+
+
+
+# fruits = ['apple' , 'orange' , 'banana' , 'kiwi']
+# new_fruits = [fruit for fruit in fruits]
+# print(new_fruits)
+
+
+# num = [3,2,5,6,4,3,5,6,7,8,9]
+# even_num = [i for i in num if i%2==0]
+# print(even_num)
+
+
+# fruits = ["apple", "banana", "cherry"]
+# upper_fruits = [fruit.upper() for fruit in fruits]
+# print(upper_fruits)
+
+
+# num = [1,2,3,4,5,6]
+# odd_even = ['Even' if x % 2==0 else 'Odd' for x in num]
+# print(odd_even)
+
+
+
+# squares = [x**2 for x in range(1,11)]
+# print(squares)
+
+
+
+# dictionary comrehension 
+
+# [key_Expression : value_Expression for item in iterableif condition]
+
+
+# squares = {x: x**2 for x in range(1, 6)}
+# print(squares)
+
+
+fruits = ['apple', 'banana', 'cherry']
+lengths = {fruit: len(fruit) for fruit in fruits}
+print(lengths)
+
+
+# even_squares = {x: x**2 for x in range(10) if x % 2 == 0}
+# print(even_squares)
+
+
+nums = range(11)
+result = {x: ('even' if x % 2 == 0 else 'odd') for x in nums}
+print(result)
 
 
 
